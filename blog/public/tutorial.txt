@@ -1,0 +1,5 @@
+Do's
+>> Use functional component rather than class component
+
+Don't
+>> Do not use variable untill needed 
