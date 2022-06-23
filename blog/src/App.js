@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import PropsFunctionalDemo from './PropsFunctionalDemo';
 // import ClassComponent from './ClassComponent';
@@ -22,14 +22,14 @@ import PropsFunctionalDemo from './PropsFunctionalDemo';
 // 	);
 // }
 
-function App(){
-	const[name,setName]=useState("Yaksh");
-	return(
+function App() {
+	const [name, setName] = useState("Yaksh");
+	return (
 		<div>
 			<h1>Use of Props and State</h1>
 			<PropsFunctionalDemo name={name} />
-			<div style={{textAlign:'center', margin:'15px'}}>
-				<button onClick={()=>{setName("Updated Name")}} >Update Name</button>
+			<div style={{ textAlign: 'center', margin: '15px' }}>
+				<button onClick={() => { setName("Updated Name") }} >Update Name</button>
 			</div>
 		</div>
 	);
