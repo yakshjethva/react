@@ -1,21 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import FunctionalComponent from './FunctionalComponent';
-import ClassComponent from './ClassComponent';
 import reportWebVitals from './reportWebVitals';
-import ButtonComponent from './ButtonComponent';
-import StateDemo from './StateDemo';
-
+import App from './App';
+//import PropsFunctionalDemo from './PropsFunctionalDemo';
+// import FunctionalComponent from './FunctionalComponent';
+// import ClassComponent from './ClassComponent';
+// import ButtonComponent from './ButtonComponent';
+// import StateFunctionalDemo from './StateFunctionalDemo';
+// import StateClassDemo from './StateClassDemo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<>
-	<App />
-    <FunctionalComponent />
-    <ClassComponent />
-	<ButtonComponent />
-	<StateDemo />
+	{
+		
+		<App />
+    	/*<FunctionalComponent />
+    	<ClassComponent />
+		<ButtonComponent />
+		<StateFunctionalDemo />
+		<StateClassDemo /> 
+		<PropsFunctionalDemo name={"Name"} email={"email@admin.com"} other={{mobile:'121-212-1212', address:'Uranus'}}/>*/}
 	</>
 );
 
