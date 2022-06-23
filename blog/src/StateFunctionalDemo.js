@@ -1,12 +1,11 @@
 import React from 'react';
 import {useState} from 'react';
 
-function StateDemo() { 
+function StateFunctionalDemo() { 
   const [data,setData]= useState('Default Value'); 
   function StateDemo(){
     setData("Updated Value");
   }
-  console.log("h");
   return (
     <div className="StateDemo">
       <h1>{data}</h1>
@@ -15,4 +14,4 @@ function StateDemo() {
   );
 }
 
-export default StateDemo;
+export default StateFunctionalDemo;
