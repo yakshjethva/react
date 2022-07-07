@@ -37,7 +37,7 @@ import React, { useState } from 'react';
 }*/
 
 /* Get input value without form for the inputbox only */
-function App() {
+/*function App() {
 	const [data, setData] = useState(null);
 	const [print, setPrint] = useState(false);
 
@@ -58,8 +58,21 @@ function App() {
 			</div>
 		</div>
 	);
-}
+}*/
 
+/* Toggle demo*/
+function App(){
+	const [status, setStatus] = useState(true);
+	return(
+		<div class="toggle">
+			{status ? <h1>I am visible now!</h1> : null}
+			<button onClick={ () => setStatus(true) }>Show</button>
+			<button onClick={ ()=> setStatus(false) }>Hide</button>
+		</div>
+
+	);
+
+}
 export default App;
 
 /* 
